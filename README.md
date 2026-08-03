@@ -2,35 +2,12 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2607.02715-b31b1b.svg)](https://arxiv.org/abs/2607.02715)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
-**LiNO** is a neural operator for learning solution operators of parametric PDEs directly from
-data. It replaces the fixed transforms used by prior multiscale operators (wavelets in WNO,
-Fourier modes in FNO, pooling in UNO/CNO) with a **learnable, second-generation wavelet lifting
-transform**. The lifting transform is **exactly invertible by construction** — no information is
-discarded during decomposition, in contrast to spectral truncation or lossy pooling — while still
-adapting its multiresolution basis to the structure of the underlying solution field.
+**LiNO**, a lifting-based neural operator framework that integrates the second-generation wavelet into neural operator learning, providing a fully invertible and learnable multiresolution decomposition tailored to PDE training data. It offers a scale-aware operator evolution mechanism in the lifted multiresolution space that separately propagates coarse and directional detail coefficients while preserving localized physical interactions.
 
-📄 Paper: *LiNO: Lifting based multiresolution neural operator*, Himanshu Pandey, Subham Patel,
-Ratikanta Behera. [arXiv:2607.02715](https://arxiv.org/abs/2607.02715)
 
 ---
 
-## Why LiNO?
-
-Most neural operators face a tradeoff between capturing **global dynamics** and preserving
-**fine-scale structure**:
-
-- **FNO** truncates high-frequency Fourier modes — efficient, but discards fine-scale information irreversibly.
-- **WNO** uses wavelets for spatial localization, but relies on a fixed, non-adaptive basis.
-- **UNO / CNO** use pooling-based hierarchies, which are not exactly invertible and can bottleneck long-horizon rollouts.
-
-LiNO instead **learns the predict and update operators of the lifting scheme** directly from
-data. This keeps the transform exactly invertible for *any* choice of these operators (see
-Proposition 2.1 in the paper), while letting the multiresolution decomposition itself adapt to
-the physics at hand. Operator evolution is then performed separately on coarse and directional
-detail coefficients, giving scale-aware dynamics that preserve localized structures such as
-sharp interfaces, shocks, and reaction fronts.
 
 <p align="center">
   <img src="docs/figures/architecture.png" alt="LiNO architecture" width="800"/>
