@@ -3,42 +3,18 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2607.02715-b31b1b.svg)](https://arxiv.org/abs/2607.02715)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-=======
-**LiNO**, a lifting-based neural operator framework that integrates the second-generation wavelet into neural operator learning, providing a fully invertible and learnable multiresolution decomposition tailored to PDE training data. It offers a scale-aware operator evolution mechanism in the lifted multiresolution space that separately propagates coarse and directional detail coefficients while preserving localized physical interactions.
->>>>>>> 19c38b89e22577b9d5e52d2190c00bdd15826f6e
+LiNO, a lifting-based neural operator framework that integrates the second-generation wavelet into neural operator learning, providing a fully invertible and learnable multiresolution decomposition tailored to PDE training data. It offers a scale-aware operator evolution mechanism in the lifted multiresolution space that separately propagates coarse and directional detail coefficients while preserving localized physical interactions.
 
 
 ---
 
 <p align="center">
-  <img src="docs/figures/architecture.png" alt="LiNO architecture" width="800"/>
+  <img src="docs/figures/LiNO-architech.pdf" alt="LiNO architecture" width="800"/>
 </p>
 
-*Figure: the input field is encoded (E), decomposed via multi-level learnable lifting (L),
-evolved in the lifted space by the operator K_Φ, reconstructed by the inverse lifting (L⁻¹), and
-decoded (D) back to the solution field. See Fig. 2.1 in the paper for full detail.*
+*Architechure: The input field \(a(x)\) is encoded into a latent representation using \(\mathcal{E}\). The learnable predict (\(\mathcal{P}_\omega\)) and update (\(\mathcal{U}_\phi\)) operators, augmented with spatial coordinates \(g(x,y)\), perform adaptive multiscale decomposition and reconstruction. Operator learning is carried out in the lifted space using the kernel operator \(\mathcal{K}_{\Phi}\), followed by a multi-level inverse lifting transform and a decoder \(\mathcal{D}\) to obtain the solution field \(u({x})\). The upper and lower insets illustrate the forward and inverse lifting procedures, respectively.*
 
-## What LiNO can do
 
-LiNO has been evaluated on benchmark PDEs spanning elliptic, reaction–diffusion, and
-compressible fluid dynamics regimes:
-
-| Benchmark | Physical regime | Highlights |
-|---|---|---|
-| Darcy flow | Elliptic, heterogeneous media | Steady-state pressure field prediction |
-| Poisson equation | Elliptic, localized sources | Sharp, localized potential structures |
-| Allen–Cahn | Reaction–diffusion, phase separation | Sharp moving interfaces |
-| Compressible Navier–Stokes (viscous & inviscid) | Transport-dominated, chaotic | Long-horizon autoregressive rollout |
-| Gray–Scott reaction–diffusion | Nonlinear pattern formation | Spiral structure formation, long-range dependencies |
-
-Across these benchmarks, LiNO achieves competitive or state-of-the-art relative ℓ₂-error against
-FNO, WNO, UNO, CNO, and LNO baselines, with substantially fewer trainable parameters than
-comparable multiscale architectures. Full quantitative results are in Tables 4.1–4.2 and
-Appendix B of the paper.
-
-**Known limitations** (see Section 5 of the paper): the current implementation requires
-**dyadic (power-of-two) grid resolutions** and is restricted to **structured Cartesian grids**.
-Extending LiNO to irregular meshes and non-dyadic resolutions is ongoing work.
 
 ## Installation
 
