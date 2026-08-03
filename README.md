@@ -14,12 +14,14 @@ LiNO, a lifting-based neural operator framework that integrates the second-gener
 
 *Schematic of the proposed lifting-based neural operator*
 
-### LiNO prediction on Navier-Stokes and Gray-Scott resction-diffusion system
+#### LiNO prediction on Navier-Stokes and Gray-Scott reaction-diffusion system
 <p align="center">
   <img src="docs/ns_gif.gif" alt="LiNO in action: Navier-Stokes prediction" width="600"/>
 </p>
 
-*LiNO in action on Navier-Stokes prediction*
+<p align="center">
+  <img src="docs/gs_gif.gif" alt="LiNO in action: Gray-Scott reaction-diffusion" width="600"/>
+</p>
 
 
 
