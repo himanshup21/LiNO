@@ -9,7 +9,7 @@ LiNO, a lifting-based neural operator framework that integrates the second-gener
 ---
 
 <p align="center">
-  <img src="docs/LiNO-architech.pdf" alt="LiNO architecture" width="800"/>
+  <img src="docs/t.png" alt="LiNO architecture" width="800"/>
 </p>
 
 *Architechure: The input field \(a(x)\) is encoded into a latent representation using \(\mathcal{E}\). The learnable predict (\(\mathcal{P}_\omega\)) and update (\(\mathcal{U}_\phi\)) operators, augmented with spatial coordinates \(g(x,y)\), perform adaptive multiscale decomposition and reconstruction. Operator learning is carried out in the lifted space using the kernel operator \(\mathcal{K}_{\Phi}\), followed by a multi-level inverse lifting transform and a decoder \(\mathcal{D}\) to obtain the solution field \(u({x})\). The upper and lower insets illustrate the forward and inverse lifting procedures, respectively.*
