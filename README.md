@@ -20,6 +20,7 @@ Requires Python ≥3.10 and a CUDA-capable GPU (paper results were produced on a
 32 GB, CUDA 12.3).
 
 ## Quickstart
+Each benchmark has a dedicated config.json, train.log and trained_model.pth along with python scripts for training and evaluation. To quickly reproduce the results, follow the steps below:
 
 ```python
 from lino_darcy import*
@@ -40,7 +41,7 @@ visualization()
 
 ## Reproducing the paper's results
 
-Each benchmark has a dedicated config matching the hyperparameters in Table A.3 of the paper.
+
 
 
 ## Datasets
