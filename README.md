@@ -48,10 +48,11 @@ All datasets used in this study have been compiled into a single archive, availa
 
 📁 **[Google Drive — LiNO benchmark datasets](<GDRIVE_LINK_HERE>)**
 
-- **Darcy flow / Allen–Cahn**: available from the [FNO](https://github.com/neuraloperator/neuraloperator) and WNO (Tripura & Chakraborty) repositories respectively — download manually and place under `data/darcy/` and `data/allen_cahn/`
+If you'd rather regenerate data from the original sources instead:
 
-- **Compressible Navier–Stokes**: requires the [PDEBench](https://github.com/pdebench/PDEBench) download utility — see its [dataset download instructions](https://github.com/pdebench/PDEBench#download-dataset).
-- **Gray–Scott**: requires the `the-well` package (`pip install the-well`), then `python -m the_well.download --dataset gray_scott_reaction_diffusion`.
+- **Darcy flow / Allen–Cahn**: available from the [FNO](https://github.com/neuraloperator/neuraloperator) and [WNO](https://github.com/TapasTripura/WNO)
+- **Compressible Navier–Stokes**: requires the [PDEBench](https://github.com/pdebench/PDEBench) download utility — see its [dataset](https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-2986)
+- **Gray–Scott**: requires the `the-well` package (`pip install the-well`), then `python -m the_well.download --dataset gray_scott_reaction_diffusion` - more about [dataset](https://polymathic-ai.org/the_well/)
 
 
 
