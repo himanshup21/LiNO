@@ -44,15 +44,9 @@ visualization()
 
 ## Datasets
 
-| Benchmark | Source | Resolution |
-|---|---|---|
-| Allen–Cahn | Tripura & Chakraborty (WNO paper) dataset | 128×128 |
-| Darcy flow | Li et al. (FNO paper) dataset | 128×128 |
-| Poisson equation | Synthetically generated (see `lino/data/preprocessing.py`) | 128×128 |
-| Compressible Navier–Stokes (viscous/inviscid) | PDEBench | 128×128 (downsampled from 512×512) |
-| Gray–Scott | The Well (Ohana et al.) | 128×128 |
+All datasets used in this study have been compiled into a single archive, available here:
 
-Download instructions and preprocessing scripts are in `scripts/download_data.sh`.
+📁 **[Google Drive — LiNO benchmark datasets](<GDRIVE_LINK_HERE>)**
 
 
 
