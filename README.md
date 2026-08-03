@@ -3,8 +3,6 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2607.02715-b31b1b.svg)](https://arxiv.org/abs/2607.02715)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-<<<<<<< HEAD
-LiNO, a lifting-based neural operator framework that integrates the second-generation wavelet into neural operator learning, providing a fully invertible and learnable multiresolution decomposition tailored to PDE training data. It offers a scale-aware operator evolution mechanism in the lifted multiresolution space that separately propagates coarse and directional detail coefficients while preserving localized physical interactions.
 =======
 **LiNO**, a lifting-based neural operator framework that integrates the second-generation wavelet into neural operator learning, providing a fully invertible and learnable multiresolution decomposition tailored to PDE training data. It offers a scale-aware operator evolution mechanism in the lifted multiresolution space that separately propagates coarse and directional detail coefficients while preserving localized physical interactions.
 >>>>>>> 19c38b89e22577b9d5e52d2190c00bdd15826f6e
@@ -12,10 +10,6 @@ LiNO, a lifting-based neural operator framework that integrates the second-gener
 
 ---
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 19c38b89e22577b9d5e52d2190c00bdd15826f6e
 <p align="center">
   <img src="docs/figures/architecture.png" alt="LiNO architecture" width="800"/>
 </p>
