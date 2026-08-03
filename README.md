@@ -23,6 +23,7 @@ Requires Python ≥3.10 and a CUDA-capable GPU (paper results were produced on a
 Each benchmark has a dedicated config.json, train.log and trained_model.pth along with python scripts for training and evaluation. To quickly reproduce the results, follow the steps below:
 
 ```python
+#import python script
 from lino_darcy import*
 
 # update the path to the saved model
@@ -37,9 +38,6 @@ model.load_state_dict(params)
 model_eval(epoch=epochs, loss=train_loss, t0=time.time(), inference=True)
 visualization()
 ```
-
-
-## Reproducing the paper's results
 
 
 
