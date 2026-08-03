@@ -22,20 +22,19 @@ Requires Python ≥3.10 and a CUDA-capable GPU (paper results were produced on a
 ## Quickstart
 
 ```python
-import torch
-from lino.models.lino import LiNO
-from lino.data.datasets import load_darcy
+from lino_darcy import*
 
-# Load a pretrained checkpoint
-model = LiNO.from_pretrained("checkpoints/darcy_flow.pt")
-model.eval()
+# update the path to the saved model
+checkpoint = torch.load(best_ckpt_path)
 
-# Run inference on a test sample
-a, u_true = load_darcy(split="test")[0]
-with torch.no_grad():
-    u_pred = model(a.unsqueeze(0))
+params = checkpoint['model_state']
+train_loss = checkpoint['loss']
 
-print("Relative L2 error:", (u_pred - u_true).norm() / u_true.norm())
+model.load_state_dict(params)
+
+# model evaluation and visualization over 3 randomly sampled test inputs
+model_eval(epoch=epochs, loss=train_loss, t0=time.time(), inference=True)
+visualization()
 ```
 
 
