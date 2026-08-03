@@ -16,16 +16,6 @@ LiNO, a lifting-based neural operator framework that integrates the second-gener
 
 
 
-## Installation
-
-```bash
-git clone https://github.com/<org-or-username>/LiNO.git
-cd LiNO
-conda env create -f environment.yml
-conda activate lino
-pip install -e .
-```
-
 Requires Python ≥3.10 and a CUDA-capable GPU (paper results were produced on an NVIDIA RTX 4500,
 32 GB, CUDA 12.3).
 
@@ -48,29 +38,11 @@ with torch.no_grad():
 print("Relative L2 error:", (u_pred - u_true).norm() / u_true.norm())
 ```
 
-See `notebooks/quickstart_demo.ipynb` for a full walkthrough with visualization.
 
 ## Reproducing the paper's results
 
 Each benchmark has a dedicated config matching the hyperparameters in Table A.3 of the paper.
 
-```bash
-# Train LiNO on a given benchmark
-python -m lino.train --config configs/darcy.yaml
-
-# Evaluate a trained checkpoint and reproduce Table 4.1 entries
-python -m lino.evaluate --config configs/darcy.yaml --checkpoint checkpoints/darcy_flow.pt
-
-# Reproduce the full Table 4.1 (all benchmarks, all baselines)
-bash scripts/reproduce_table_4_1.sh
-```
-
-| Paper artifact | Reproduction script |
-|---|---|
-| Table 4.1 (relative ℓ2-error) | `scripts/reproduce_table_4_1.sh` |
-| Table 4.2 (training time) | `scripts/reproduce_table_4_2.sh` |
-| Table B.1 / B.2 (memory, parameter count) | `scripts/reproduce_appendix_b.sh` |
-| Figure 4.2 / 4.3 (qualitative comparisons) | `notebooks/reproduce_figures.ipynb` |
 
 ## Datasets
 
@@ -84,18 +56,7 @@ bash scripts/reproduce_table_4_1.sh
 
 Download instructions and preprocessing scripts are in `scripts/download_data.sh`.
 
-## Repository structure
 
-```
-LiNO/
-├── lino/               # Core library: models, data loaders, training/eval loops
-├── configs/            # Per-benchmark hyperparameter configs (matches Table A.3)
-├── scripts/            # Data download and result-reproduction scripts
-├── notebooks/          # Quickstart and figure-reproduction notebooks
-├── tests/              # Unit tests, including numerical invertibility check
-├── checkpoints/        # Pretrained model weights (or see Zenodo archive)
-└── docs/               # Architecture notes and extended documentation
-```
 
 ## Citation
 
@@ -110,7 +71,6 @@ If you use LiNO in your research, please cite:
 }
 ```
 
-A `CITATION.cff` file is also provided for GitHub's native citation widget.
 
 ## License
 

@@ -1,0 +1,25 @@
+2026-05-13 10:20:43 | INFO | Run ID : 20260513_102043
+2026-05-13 10:20:43 | INFO | Output : runs/LiNO_log
+2026-05-13 10:20:43 | INFO | Seed   : 42
+2026-05-13 10:20:43 | INFO | Config saved → runs/LiNO_log/config.json
+2026-05-13 10:20:43 | INFO | Device : cuda:1
+2026-05-13 10:20:43 | INFO | [1/4] Loading data from /home/phimanshu/SSD/Shared/SP_HP_shared/Data/Darcy/darcy_data_256_256.npz
+2026-05-13 10:20:44 | INFO |    a shape : (1000, 1, 128, 128)   u shape : (1000, 1, 128, 128)
+2026-05-13 10:20:44 | INFO |    a shape : (1000, 1, 128, 128)   u shape : (1000, 1, 128, 128)
+2026-05-13 10:20:44 | INFO |    Train : 800 | Test : 200
+2026-05-13 10:20:44 | INFO | [2/4] Building LNO …
+2026-05-13 10:20:44 | INFO |    Trainable parameters : 1,533,249
+2026-05-13 10:20:52 | INFO |   Epoch    0/500 | Loss 8.7837e-01 | Test rel-L2 2.5670e-01 ± 2.9479e-02 | Elapsed 0.11 min
+2026-05-13 10:22:42 | INFO |   Epoch   50/500 | Loss 3.8478e-02 | Test rel-L2 1.9049e-02 ± 5.9642e-03 | Elapsed 1.94 min
+2026-05-13 10:24:32 | INFO |   Epoch  100/500 | Loss 4.3107e-02 | Test rel-L2 2.1684e-02 ± 4.9089e-03 | Elapsed 3.78 min
+2026-05-13 10:26:23 | INFO |   Epoch  150/500 | Loss 2.5277e-02 | Test rel-L2 1.7192e-02 ± 3.9117e-03 | Elapsed 5.62 min
+2026-05-13 10:28:13 | INFO |   Epoch  200/500 | Loss 2.1842e-02 | Test rel-L2 1.1287e-02 ± 2.1916e-03 | Elapsed 7.46 min
+2026-05-13 10:30:04 | INFO |   Epoch  250/500 | Loss 1.2095e-02 | Test rel-L2 6.5422e-03 ± 1.2882e-03 | Elapsed 9.30 min
+2026-05-13 10:31:54 | INFO |   Epoch  300/500 | Loss 8.9257e-03 | Test rel-L2 6.3786e-03 ± 1.6689e-03 | Elapsed 11.14 min
+2026-05-13 10:33:44 | INFO |   Epoch  350/500 | Loss 6.7372e-03 | Test rel-L2 4.4306e-03 ± 9.9251e-04 | Elapsed 12.98 min
+2026-05-13 10:35:35 | INFO |   Epoch  400/500 | Loss 5.0998e-03 | Test rel-L2 4.0209e-03 ± 9.5548e-04 | Elapsed 14.83 min
+2026-05-13 10:37:25 | INFO |   Epoch  450/500 | Loss 4.7737e-03 | Test rel-L2 3.8469e-03 ± 9.2904e-04 | Elapsed 16.66 min
+2026-05-13 10:39:13 | INFO |   Epoch  499/500 | Loss 4.7019e-03 | Test rel-L2 3.7852e-03 ± 9.2272e-04 | Elapsed 18.47 min
+2026-05-13 10:39:13 | INFO | [4/4] Training complete. Best test rel-L2 = 3.7852e-03
+2026-05-13 10:39:13 | INFO |       Best checkpoint  → runs/LiNO_log/best_model.pth
+2026-05-13 10:39:13 | INFO |       Peak GPU memory usage : 4.84 GB
