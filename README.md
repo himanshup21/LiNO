@@ -35,7 +35,7 @@ Each benchmark has a dedicated config.json, train.log and trained_model.pth alon
 #import python script
 from lino_darcy import*
 
-# update the path to the saved model
+# update the path to the saved model and data file
 checkpoint = torch.load(best_ckpt_path)
 
 params = checkpoint['model_state']
@@ -83,8 +83,3 @@ If you use LiNO in your research, please cite:
 
 This project is released under the [MIT License](LICENSE).
 
-## Acknowledgments
-
-Subham Patel acknowledges the Axis Bank Centre for Mathematics and Computing, Indian Institute
-of Science, Bangalore, for financial support carried out at the IISc Mathematics Initiative,
-Department of Mathematics.
