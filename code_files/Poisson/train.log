@@ -1,0 +1,53 @@
+2026-08-04 11:39:33 | INFO | Run ID : 20260804_113933
+2026-08-04 11:39:33 | INFO | Output : runs/LiNO_log
+2026-08-04 11:39:33 | INFO | Seed   : 42
+2026-08-04 11:39:33 | INFO | Config saved → runs/LiNO_log/config.json
+2026-08-04 11:39:33 | INFO | Device : cuda:1
+2026-08-04 11:39:33 | INFO | [1/4] Loading data from /home/phimanshu/SSD/Shared/SP_HP_shared/Data/poisson/poisson_256_256.npz
+2026-08-04 11:39:34 | INFO |    a shape : (1000, 1, 128, 128)   u shape : (1000, 1, 128, 128)
+2026-08-04 11:39:34 | INFO |    a shape : (1000, 1, 128, 128)   u shape : (1000, 1, 128, 128)
+2026-08-04 11:39:34 | INFO |    Train : 800 | Test : 200
+2026-08-04 11:39:34 | INFO | [2/4] Building LiNO …
+2026-08-04 11:39:34 | INFO |    Trainable parameters : 690,337
+2026-08-04 11:39:41 | INFO |   Epoch    0/50 | Loss 8.1754e-01 | Test rel-L2 6.8498e-01 ± 7.8533e-02 | Elapsed 0.13 min
+2026-08-04 11:41:03 | INFO |   Epoch   49/50 | Loss 4.7763e-02 | Test rel-L2 4.8064e-02 ± 1.0032e-02 | Elapsed 1.50 min
+2026-08-04 11:41:03 | INFO | [4/4] Training complete. Best test rel-L2 = 4.8064e-02
+2026-08-04 11:41:03 | INFO |       Best checkpoint  → runs/LiNO_log/trained_model.pth
+2026-08-04 11:41:03 | INFO |       Peak GPU memory usage : 7.35 GB
+2026-08-04 11:42:58 | INFO | Run ID : 20260804_114258
+2026-08-04 11:42:58 | INFO | Output : runs/LiNO_log
+2026-08-04 11:42:58 | INFO | Seed   : 42
+2026-08-04 11:42:58 | INFO | Config saved → runs/LiNO_log/config.json
+2026-08-04 11:42:58 | INFO | Device : cuda:1
+2026-08-04 11:42:58 | INFO | [1/4] Loading data from /home/phimanshu/SSD/Shared/SP_HP_shared/Data/poisson/poisson_256_256.npz
+2026-08-04 11:42:58 | INFO |    a shape : (1000, 1, 128, 128)   u shape : (1000, 1, 128, 128)
+2026-08-04 11:42:58 | INFO |    a shape : (1000, 1, 128, 128)   u shape : (1000, 1, 128, 128)
+2026-08-04 11:42:58 | INFO |    Train : 800 | Test : 200
+2026-08-04 11:42:58 | INFO | [2/4] Building LiNO …
+2026-08-04 11:42:58 | INFO |    Trainable parameters : 690,337
+2026-08-04 11:43:04 | INFO |   Epoch    0/500 | Loss 8.1754e-01 | Test rel-L2 6.8498e-01 ± 7.8533e-02 | Elapsed 0.11 min
+2026-08-04 11:44:19 | INFO |   Epoch   50/500 | Loss 7.5603e-02 | Test rel-L2 6.4833e-02 ± 2.1184e-02 | Elapsed 1.36 min
+2026-08-04 11:45:35 | INFO |   Epoch  100/500 | Loss 7.6653e-02 | Test rel-L2 5.9502e-02 ± 2.1585e-02 | Elapsed 2.63 min
+2026-08-04 11:46:51 | INFO |   Epoch  150/500 | Loss 3.6636e-02 | Test rel-L2 5.0542e-02 ± 1.7632e-02 | Elapsed 3.89 min
+2026-08-04 11:48:06 | INFO |   Epoch  200/500 | Loss 3.5289e-02 | Test rel-L2 3.5529e-02 ± 1.2608e-02 | Elapsed 5.14 min
+2026-08-04 11:49:22 | INFO |   Epoch  250/500 | Loss 2.7383e-02 | Test rel-L2 2.8641e-02 ± 1.0996e-02 | Elapsed 6.40 min
+2026-08-04 11:50:38 | INFO |   Epoch  300/500 | Loss 1.6342e-02 | Test rel-L2 2.6562e-02 ± 1.1837e-02 | Elapsed 7.67 min
+2026-08-04 11:51:54 | INFO |   Epoch  350/500 | Loss 1.9557e-02 | Test rel-L2 2.3101e-02 ± 9.0724e-03 | Elapsed 8.94 min
+2026-08-04 11:53:10 | INFO |   Epoch  400/500 | Loss 1.1775e-02 | Test rel-L2 1.9615e-02 ± 7.2188e-03 | Elapsed 10.21 min
+2026-08-04 11:54:25 | INFO |   Epoch  450/500 | Loss 1.1038e-02 | Test rel-L2 1.8899e-02 ± 7.0328e-03 | Elapsed 11.46 min
+2026-08-04 11:55:40 | INFO |   Epoch  499/500 | Loss 1.0821e-02 | Test rel-L2 1.8703e-02 ± 6.9886e-03 | Elapsed 12.70 min
+2026-08-04 11:55:40 | INFO | [4/4] Training complete. Best test rel-L2 = 1.8703e-02
+2026-08-04 11:55:40 | INFO |       Best checkpoint  → runs/LiNO_log/trained_model.pth
+2026-08-04 11:55:40 | INFO |       Peak GPU memory usage : 7.35 GB
+2026-08-04 11:56:15 | INFO | Run ID : 20260804_115615
+2026-08-04 11:56:15 | INFO | Output : runs/LiNO_log
+2026-08-04 11:56:15 | INFO | Seed   : 42
+2026-08-04 11:56:15 | INFO | Config saved → runs/LiNO_log/config.json
+2026-08-04 11:56:15 | INFO | Device : cuda:1
+2026-08-04 11:56:15 | INFO | [1/4] Loading data from /home/phimanshu/SSD/Shared/SP_HP_shared/Data/poisson/poisson_256_256.npz
+2026-08-04 11:56:16 | INFO |    a shape : (1000, 1, 128, 128)   u shape : (1000, 1, 128, 128)
+2026-08-04 11:56:16 | INFO |    a shape : (1000, 1, 128, 128)   u shape : (1000, 1, 128, 128)
+2026-08-04 11:56:16 | INFO |    Train : 800 | Test : 200
+2026-08-04 11:56:16 | INFO | [2/4] Building LiNO …
+2026-08-04 11:56:17 | INFO |    Trainable parameters : 690,337
+2026-08-04 11:56:27 | INFO |   Epoch  500/500 | Loss 1.0821e-02 | Test rel-L2 1.8703e-02 ± 6.9886e-03 | Elapsed 0.07 min

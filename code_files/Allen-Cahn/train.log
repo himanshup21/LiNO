@@ -1,0 +1,24 @@
+2026-05-12 10:25:25 | INFO | Run ID : 20260512_102525
+2026-05-12 10:25:25 | INFO | Output : /home/subham/SSD/Shared/SP_HP_shared/LiNO_final1/Allencahn/runs/LiNO_log
+2026-05-12 10:25:25 | INFO | Seed   : 42
+2026-05-12 10:25:25 | INFO | Config saved → /home/subham/SSD/Shared/SP_HP_shared/LiNO_final1/Allencahn/runs/LiNO_log/config.json
+2026-05-12 10:25:25 | INFO | Device : cuda:1
+2026-05-12 10:25:25 | INFO | [1/4] Loading data from /home/subham/SSD/Shared/SP_HP_shared/Data/Allen_cahn/Allen_cahn_2d_128_128_T10.mat
+2026-05-12 10:25:29 | INFO |    a shape : (1500, 1, 128, 128)   u shape : (1500, 1, 128, 128)
+2026-05-12 10:25:29 | INFO |    Train : 1200 | Test : 300
+2026-05-12 10:25:29 | INFO | [2/4] Building LNO …
+2026-05-12 10:25:29 | INFO |    Trainable parameters : 1,200,961
+2026-05-12 10:25:43 | INFO |   Epoch    0/500 | Loss 6.3581e-01 | Test rel-L2 4.4346e-01 ± 1.6649e-02 | 
+2026-05-12 10:29:56 | INFO |   Epoch   50/500 | Loss 2.5452e-02 | Test rel-L2 2.5282e-02 ± 2.3416e-03 | 
+2026-05-12 10:34:09 | INFO |   Epoch  100/500 | Loss 1.8872e-02 | Test rel-L2 1.6240e-02 ± 1.6209e-03 | 
+2026-05-12 10:38:25 | INFO |   Epoch  150/500 | Loss 1.3812e-02 | Test rel-L2 1.5071e-02 ± 1.4168e-03 | 
+2026-05-12 10:42:40 | INFO |   Epoch  200/500 | Loss 1.0958e-02 | Test rel-L2 1.0663e-02 ± 1.9357e-03 | 
+2026-05-12 10:46:54 | INFO |   Epoch  250/500 | Loss 8.4623e-03 | Test rel-L2 8.8547e-03 ± 1.2346e-03 | 
+2026-05-12 10:51:09 | INFO |   Epoch  300/500 | Loss 6.3554e-03 | Test rel-L2 6.8124e-03 ± 1.3441e-03 | 
+2026-05-12 10:55:22 | INFO |   Epoch  350/500 | Loss 4.7922e-03 | Test rel-L2 4.9986e-03 ± 1.3825e-03 | 
+2026-05-12 10:59:35 | INFO |   Epoch  400/500 | Loss 4.4041e-03 | Test rel-L2 4.6657e-03 ± 1.2813e-03 | 
+2026-05-12 11:03:48 | INFO |   Epoch  450/500 | Loss 4.2317e-03 | Test rel-L2 4.4892e-03 ± 1.2701e-03 | 
+2026-05-12 11:07:54 | INFO |   Epoch  499/500 | Loss 4.1810e-03 | Test rel-L2 4.4462e-03 ± 1.2638e-03 | 
+2026-05-12 11:07:54 | INFO | [4/4] Training complete. Best test rel-L2 = 4.4462e-03
+2026-05-12 11:07:54 | INFO |       Best checkpoint  → /home/subham/SSD/Shared/SP_HP_shared/LiNO_final1/Allencahn/runs/LiNO_log/best_model.pth
+2026-05-12 11:07:54 | INFO |       Peak GPU memory usage : 11.59 GB

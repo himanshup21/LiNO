@@ -1,0 +1,12 @@
+{
+  "run_id": "20260804_115615",
+  "seed": 42,
+  "ntrain": 800,
+  "ntest": 200,
+  "levels": 4,
+  "epochs": 500,
+  "lr": 0.001,
+  "width": 32,
+  "batch_size": 128,
+  "data_path": "/home/phimanshu/SSD/Shared/SP_HP_shared/Data/poisson/poisson_256_256.npz"
+}

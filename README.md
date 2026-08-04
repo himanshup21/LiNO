@@ -81,10 +81,4 @@ If you use LiNO in your research, please cite:
 
 ## License
 
-This project is released under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-Subham Patel acknowledges the Axis Bank Centre for Mathematics and Computing, Indian Institute
-of Science, Bangalore, for financial support carried out at the IISc Mathematics Initiative,
-Department of Mathematics.
+This project is released under the [MIT License](LICENSE)

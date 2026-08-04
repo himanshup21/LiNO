@@ -1,0 +1,12 @@
+{
+  "run_id": "20260512_102525",
+  "seed": 42,
+  "ntrain": 1200,
+  "ntest": 300,
+  "levels": 4,
+  "epochs": 500,
+  "lr": 0.001,
+  "width": 64,
+  "batch_size": 128,
+  "data_path": "/home/subham/SSD/Shared/SP_HP_shared/Data/Allen_cahn/Allen_cahn_2d_128_128_T10.mat"
+}
