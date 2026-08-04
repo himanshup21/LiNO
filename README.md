@@ -9,7 +9,7 @@ LiNO, a lifting-based neural operator framework that integrates the second-gener
 ---
 
 <p align="center">
-  <img src="docs/LiNO-architech.png" alt="LiNO architecture" width="600"/>
+  <img src="docs/LiNO-architech.png" alt="LiNO architecture" width="800"/>
 </p>
 
 *Schematic of the proposed lifting-based neural operator*
