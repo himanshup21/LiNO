@@ -1,0 +1,34 @@
+Script   : lino.py
+Started  : Wed May 20 10:28:08 AM IST 2026
+----------------------------------------
+Keys: ['fields']
+u_train shape: torch.Size([180, 2, 40, 128, 128])
+u_test shape: torch.Size([20, 2, 40, 128, 128])
+LiNO parameter count: 542,882
+
+Epoch    0  Loss: 0.930081  U RelL2: 0.242835  V RelL2: 0.766944  U Std: 0.096649  V Std: 0.047196 Time: 0.71min
+  -> Model saved.
+Epoch   50  Loss: 0.130325  U RelL2: 0.037931  V RelL2: 0.162967  U Std: 0.016192  V Std: 0.042215 Time: 27.89min
+  -> Model saved.
+Epoch  100  Loss: 0.080306  U RelL2: 0.025452  V RelL2: 0.117333  U Std: 0.009308  V Std: 0.039927 Time: 54.75min
+  -> Model saved.
+Epoch  150  Loss: 0.085953  U RelL2: 0.026609  V RelL2: 0.121592  U Std: 0.012327  V Std: 0.036559 Time: 82.17min
+  -> Model saved.
+Epoch  200  Loss: 0.046520  U RelL2: 0.016977  V RelL2: 0.082529  U Std: 0.006907  V Std: 0.029836 Time: 110.03min
+  -> Model saved.
+Epoch  250  Loss: 0.059080  U RelL2: 0.018725  V RelL2: 0.090821  U Std: 0.006990  V Std: 0.040370 Time: 137.51min
+  -> Model saved.
+Epoch  300  Loss: 0.031909  U RelL2: 0.013928  V RelL2: 0.071286  U Std: 0.005456  V Std: 0.031889 Time: 164.43min
+  -> Model saved.
+Epoch  350  Loss: 0.027279  U RelL2: 0.012541  V RelL2: 0.065935  U Std: 0.007464  V Std: 0.044749 Time: 191.63min
+  -> Model saved.
+Epoch  400  Loss: 0.028789  U RelL2: 0.013291  V RelL2: 0.068807  U Std: 0.007835  V Std: 0.047485 Time: 219.83min
+  -> Model saved.
+Epoch  450  Loss: 0.023845  U RelL2: 0.011031  V RelL2: 0.059624  U Std: 0.006880  V Std: 0.043438 Time: 247.52min
+  -> Model saved.
+Epoch  499  Loss: 0.021714  U RelL2: 0.010636  V RelL2: 0.057864  U Std: 0.006786  V Std: 0.042719 Time: 274.15min
+  -> Model saved.
+Peak GPU memory usage : 26.77 GB
+----------------------------------------
+Finished : Wed May 20 03:02:33 PM IST 2026
+Exit code: 0

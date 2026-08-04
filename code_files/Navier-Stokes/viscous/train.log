@@ -1,0 +1,34 @@
+Script   : lino.py
+Started  : Wed May 20 10:22:29 PM IST 2026
+----------------------------------------
+Keys: ['Vx', 'Vy', 'density', 'pressure', 't-coordinate', 'x-coordinate', 'y-coordinate']
+(10000, 21, 128, 128)
+u_train shape: torch.Size([2000, 4, 21, 128, 128])
+u_test shape: torch.Size([500, 4, 21, 128, 128])
+LiNO parameter count: 543,460
+Epoch    0  Loss: 0.570381  Density RelL2: 0.194815, Std: 0.425518,    Time: 3.02 min
+  -> Model saved.
+Epoch   50  Loss: 0.137406  Density RelL2: 0.090092, Std: 0.205950,    Time: 79.03 min
+  -> Model saved.
+Epoch  100  Loss: 0.093495  Density RelL2: 0.049875, Std: 0.111798,    Time: 155.34 min
+  -> Model saved.
+Epoch  150  Loss: 0.092575  Density RelL2: 0.044743, Std: 0.108719,    Time: 231.69 min
+  -> Model saved.
+Epoch  200  Loss: 0.077784  Density RelL2: 0.035097, Std: 0.080829,    Time: 308.25 min
+  -> Model saved.
+Epoch  250  Loss: 0.065636  Density RelL2: 0.031681, Std: 0.075032,    Time: 384.79 min
+  -> Model saved.
+Epoch  300  Loss: 0.048342  Density RelL2: 0.021239, Std: 0.046229,    Time: 461.26 min
+  -> Model saved.
+Epoch  350  Loss: 0.048099  Density RelL2: 0.020347, Std: 0.047397,    Time: 537.66 min
+  -> Model saved.
+Epoch  400  Loss: 0.031765  Density RelL2: 0.016638, Std: 0.037276,    Time: 614.10 min
+  -> Model saved.
+Epoch  450  Loss: 0.029949  Density RelL2: 0.015509, Std: 0.034834,    Time: 690.49 min
+  -> Model saved.
+Epoch  499  Loss: 0.027145  Density RelL2: 0.014973, Std: 0.033194,    Time: 765.61 min
+  -> Model saved.
+Peak GPU memory usage : 22.46 GB
+----------------------------------------
+Finished : Thu May 21 11:08:28 AM IST 2026
+Exit code: 0
